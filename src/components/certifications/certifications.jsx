@@ -11,7 +11,7 @@ const Certifications = () => {
       <div className="flex-1 mb-8 lg:mb-0">
         <div className="font-merriweather text-5xl font-extrabold xl:mb-5">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700 ">
-            Certificaciones y Educación
+            Certificaciones y Educación.
           </span>
         </div>
 
