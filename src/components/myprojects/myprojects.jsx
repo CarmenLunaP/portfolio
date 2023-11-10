@@ -7,7 +7,7 @@ const MyProjects = () => {
   const projectsSortedById = MyProjectsE.slice().sort((a, b) => b.id - a.id);
 
   return (
-    <section className="bg-primary p-8 md:p-16 ">
+    <section className="bg-primary p-5 md:p-16 ">
       <div className="font-merriweather text-5xl font-extrabold pb-8 lg:ml-40 xl:p-0">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700">
           Mis Proyectos
@@ -73,8 +73,9 @@ const MyProjects = () => {
             </motion.div>
           ))}
         </motion.div>
+        <hr className="border-t-2 border-tertiary my-8 absolute left-0 right-0" />
       </div>
-      <hr className="border-t-2 border-tertiary my-8 md:hidden" />
+
     </section>
     
   );

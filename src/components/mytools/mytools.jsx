@@ -11,17 +11,17 @@ const Tools = () => {
   const uniqueTypes = Array.from(new Set(Mytechnologies.map(skill => skill.type)));
 
   return (
-    <section className="bg-primary p-8 md:p-16 lg:p-20 xl:p-40">
+    <section className="bg-primary p-8 md:p-16 lg:p-10 xl:pl-40">
       <div className="font-merriweather text-5xl font-extrabold">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700">
+        <span className="lg:p-10 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700">
           Herramientas y Tecnologías
         </span>
       </div>
 
       {uniqueTypes.map((type, index) => (
         <div key={index} className="mb-8">
-          <h3 className="font-cutivemono text-xl font-bold mt-5 ml-5">{type}</h3>
-          <div className="flex flex-wrap gap-4 justify-center md:ml-0 p-5">
+          <h3 className="font-cutivemono text-xl font-bold mt-5 ml-5 lg:pl-10" >{type}</h3>
+          <div className="flex flex-wrap gap-4 justify-center md:ml-0 p-5 lg:pl-10">
             {Mytechnologies.filter(skill => skill.type === type).map((skill, index) => (
               <div
                 key={index}
