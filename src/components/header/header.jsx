@@ -1,5 +1,7 @@
 import React from "react";
 import fondo from "../../img/fondo.jpg";
+import spFlag from "../../img/sp.png";
+import enFlag from "../../img/en.png";
 
 const Header = () => {
   const headerStyle = {
@@ -7,31 +9,53 @@ const Header = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    padding: "40px 20px", // Ajuste para dispositivos móviles
+    padding: "40px 20px",
     textAlign: "left",
   };
 
   return (
     <div
       style={headerStyle}
-      className="h-70 md:h-150 font-raleway bg-cover bg-no-repeat bg-center"
+      className="h-70 md:h-150 font-raleway bg-cover bg-no-repeat bg-center relative"
     >
-      <h1
-        className="font-inconsolata text-6xl lg:ml-40 md:text-8xl text-quaternary font-bold p-2"
-        style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.9)" }}
-      >
-        Carmen Luna
-      </h1>
-      <p className="font-cutivemono text-2xl lg:ml-40  md:text-3xl font-bold text-white pl-4 md:pl-8 pb-8 md:pb-20">
-        FrontEnd Developer
-      </p>
+       <div className="flex items-center justify-end">
+          <button className="rounded-fullpx-4 py-2 mx-2">
+            <img
+              src={spFlag}
+              alt="Spanish Flag"
+              className="w-15 h-12 mr-2 rounded-full"
+            />
+          </button>
+          <button className="rounded-full px-4 py-2 mx-2">
+            <img
+              src={enFlag}
+              alt="English Flag"
+              className="w-12 h-12 mr-2 rounded-full"
+            />
+          </button>
+        </div>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1
+            className="font-inconsolata text-6xl lg:ml-40 md:text-8xl text-quaternary font-bold p-2"
+            style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.9)" }}
+          >
+            Carmen Luna
+          </h1>
+          <p className="font-cutivemono text-2xl lg:ml-40 md:text-3xl font-bold text-white pl-4 md:pl-8 pb-8 md:pb-20">
+            FrontEnd Developer
+          </p>
+        </div>
+        
+      </div>
+
+     
+
     </div>
   );
 };
 
 export default Header;
-
-
 
 // import React from "react";
 // import fondo from "../../img/fondo.jpg";
@@ -42,22 +66,22 @@ export default Header;
 //     backgroundSize: "cover",
 //     backgroundRepeat: "no-repeat",
 //     backgroundPosition: "center",
-//     padding: "60px 20px 20px 120px",
+//     padding: "40px 20px",
 //     textAlign: "left",
 //   };
 
 //   return (
 //     <div
 //       style={headerStyle}
-//       className=" h-160 font-raleway bg-cover bg-no-repeat bg-center "
+//       className="h-70 md:h-150 font-raleway bg-cover bg-no-repeat bg-center"
 //     >
 //       <h1
-//         className="font-inconsolata text-8xl text-quaternary font-bold p-2"
+//         className="font-inconsolata text-6xl lg:ml-40 md:text-8xl text-quaternary font-bold p-2"
 //         style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.9)" }}
 //       >
 //         Carmen Luna
 //       </h1>
-//       <p className="font-cutivemono text-3xl font-bold text-white pl-8 pb-20">
+//       <p className="font-cutivemono text-2xl lg:ml-40  md:text-3xl font-bold text-white pl-4 md:pl-8 pb-8 md:pb-20">
 //         FrontEnd Developer
 //       </p>
 //     </div>
