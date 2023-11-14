@@ -19,18 +19,18 @@ const Header = () => {
       className="h-70 md:h-150 font-raleway bg-cover bg-no-repeat bg-center relative"
     >
        <div className="flex items-center justify-end">
-          <button className="rounded-fullpx-4 py-2 mx-2">
+          <button className="rounded-fullpx-4 py-1 mx-2">
             <img
               src={spFlag}
               alt="Spanish Flag"
-              className="w-15 h-12 mr-2 rounded-full"
+              className="w-10 h-10 mr-2 rounded-full"
             />
           </button>
-          <button className="rounded-full px-4 py-2 mx-2">
+          <button className="rounded-full px-4 py-1 mx-2">
             <img
               src={enFlag}
               alt="English Flag"
-              className="w-12 h-12 mr-2 rounded-full"
+              className="w-10 h-10 mr-2 rounded-full"
             />
           </button>
         </div>

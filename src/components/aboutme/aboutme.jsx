@@ -7,7 +7,7 @@ const About = () => {
       <img
         src={carmen}
         alt="Imagen de Acerca de mí"
-        className="w-80 md:w-1/5 h-auto mb-8 md:mb-0 md:mr-8 md:ml-0 rounded-full"
+        className="w-60 md:w-1/5 h-auto mb-8 md:mb-0 md:mr-8 md:ml-0 rounded-full"
       />
 
       <div className="md:w-4/5">
