@@ -57,7 +57,7 @@ export const MyCertification = [
     },
     {
         id: 9,
-        name: "Hackathon del Laboratoria Talent Fest LATAM 2023",
+        name: "Hackathon Laboratoria Talent Fest LATAM 2023",
         institute: "Laboratoria",
         date: "noviembre 2023",
         type: "Herramientas de Desarrollo",
@@ -76,8 +76,5 @@ export const MyCertification = [
         date: "septiembre 2023",
         type: "Reconocimientos",
       }
-
-
   ];
-  
   

@@ -1,9 +1,9 @@
 import React from "react";
-import { MyCertification } from "./list";
+import { MyCertificationEn } from "./listEn";
 
-const Certifications = () => {
+const CertificationsEn = () => {
   const uniqueTypes = Array.from(
-    new Set(MyCertification.map((certification) => certification.type))
+    new Set(MyCertificationEn.map((certification) => certification.type))
   );
 
   return (
@@ -11,7 +11,7 @@ const Certifications = () => {
     <div className="flex justify-between flex-col lg:flex-row">
       <div className="font-merriweather text-5xl font-extrabold mb-4 lg:mb-0 text-center lg:text-left">
         <span className="lg:p-10 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700">
-          Certificaciones y Educación
+        Certifications and Education
         </span>
       </div>
       <div className="ml-450 lg:pt-2 text-center">
@@ -36,7 +36,7 @@ const Certifications = () => {
                 {type}
               </h3>
               <ul className="list-disc ml-10 ">
-                {MyCertification.filter(
+                {MyCertificationEn.filter(
                   (certification) => certification.type === type
                 ).map((certification, index) => (
                   <li key={index} className="font-cutivemono text-lg">
@@ -91,4 +91,4 @@ const Certifications = () => {
   );
 };
 
-export default Certifications;
+export default CertificationsEn;

@@ -1,16 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { MyProjectsE } from "./Data.js";
+import { MyProjectsEnglish } from "./DataEn.js";
 import { FaEye, FaGithub } from "react-icons/fa";
 
-const MyProjects = () => {
-  const projectsSortedById = MyProjectsE.slice().sort((a, b) => b.id - a.id);
+const MyProjectsEn = () => {
+  const projectsSortedById = MyProjectsEnglish.slice().sort((a, b) => b.id - a.id);
 
   return (
     <section className="bg-primary p-5 md:p-16">
       <div className="font-merriweather text-5xl font-extrabold pb-8 lg:ml-40 xl:p-0">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 only:to-yellow-700">
-          Mis Proyectos
+          My Projects
         </span>
       </div>
       <div className="lg:ml-40 lg:pl-10 lg:pt-5 ">
@@ -52,7 +52,7 @@ const MyProjects = () => {
                     style={{ cursor: "pointer" }}
                   >
                     <FaEye className="mr-2" />
-                    Ver Proyecto
+                    View Project
                   </a>
                   <a
                     href={proyecto.linkGitHub}
@@ -62,7 +62,7 @@ const MyProjects = () => {
                     style={{ cursor: "pointer" }}
                   >
                     <FaGithub className="mr-2" />
-                    Ver en GitHub
+                    View on GitHub
                   </a>
                 </div>
               </div>
@@ -75,4 +75,4 @@ const MyProjects = () => {
   );
 };
 
-export default MyProjects;
+export default MyProjectsEn;
