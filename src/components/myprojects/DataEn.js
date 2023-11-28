@@ -7,7 +7,7 @@ export const MyProjectsEnglish = [
         "Validation of bank cards, based on the Luhn algorithm.",
       technologies: "JAVASCRIPT, HTML, CSS, GITHUB, FIGMA",
       linkGitHub: "https://github.com/CarmenLunaP/Card_Validation",
-      linkDeploy: "https://dev-007-burger-queen-api-client-beta.vercel.app/",
+      linkDeploy: "https://carmenlunap.github.io/Card_Validation/",
     },
     {
       id: 2,
@@ -26,8 +26,8 @@ export const MyProjectsEnglish = [
       description:
         "Social network for cooking enthusiasts: registration, recipes, interaction, and culinary community.",
       technologies: "JAVASCRIPT, HTML, CSS, FLEX, JEST, GITHUB, FIGMA",
-      linkGitHub: "https://github.com/CarmenLunaP/Pokemon_Data_Lovers",
-      linkDeploy: " ",
+      linkGitHub: "https://github.com/CarmenLunaP/Social_Network",
+      linkDeploy: "https://github.com/CarmenLunaP/Social_Network",
     },
     {
       id: 4,
@@ -47,8 +47,8 @@ export const MyProjectsEnglish = [
       description:
         "Web application for restaurant order management.",
       technologies: "REACT, CSS, FLEX, JEST, GITHUB, FIGMA",
-      linkGitHub: "",
-      linkDeploy: "",
+      linkGitHub: "https://github.com/CarmenLunaP/Burguer_Queen",
+      linkDeploy: "https://burguer-queen-rho.vercel.app/",
     },
     {
       id: 6,

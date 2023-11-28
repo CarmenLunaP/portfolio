@@ -11,7 +11,7 @@ const Contact = () => {
 
       <div className="flex flex-col md:flex-row items-center gap-20 mt-4 md:ml-40">
         <a
-          href="https://e7.pngegg.com/pngimages/93/587/png-clipart-linkedin-logo-linkedin-logo-computer-icons-business-symbol-linkedin-icon-miscellaneous-blue.png"
+          href="https://www.linkedin.com/in/carmen-luna-cllp/"
           target="_blank"
           rel="noreferrer" 
           className="contact-button"
